@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+body{
+ background-size: cover;
+}
+
+.heading{
+    font-size: 30px;
+    color: white;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.ins_btn{
+    color: white;
+    background-color: teal;
+}
+
+.play_btn, .restart_btn{
+    color: white;
+    background-color: teal;
+    margin-left: 10px;
+}
+
+.stats{
+    margin-top: 1px;
+    margin-bottom: 3px;
+}
+
+#instruction_modal{
+    text-align: left;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: grey;
+    font-size: 15px;
+    line-height: 2;
+}
